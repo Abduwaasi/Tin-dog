@@ -1,0 +1,271 @@
+body{
+	
+	font-family: 'Montserrat', sans-serif;
+	text-rendering: optimizeLegibility;
+}
+
+button{
+	margin-top: 1.5rem;
+	margin-right: 1rem;
+}
+
+
+.header-div{
+	background-color: #ff4c68;
+	padding: 3% 12% 15%;
+	
+}
+
+.navbar-brand{
+	color: #fff; 
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.navbar-brand:hover{
+	color: #fff;
+}
+
+
+.nav-item{
+	padding: 0 1.5rem;
+}
+
+.nav-link{
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 1rem;
+	font-weight: 200;
+	transition: all .3s ease;
+	
+}
+.nav-link:hover{
+	color: #fff;
+	font-weight: 500;
+}
+
+.top-content{
+	padding-top: 7%;
+	
+	
+}
+.top-content h1{
+	font-size: 3.5rem;
+	font-weight: bolder;
+	line-height: 1.5;
+	color: #fff;
+}
+
+.top-content img{
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	margin-left: 5rem;	
+}
+
+
+/*---------------------------
+	 Offer Section
+-----------------------------*/
+.offer-section{
+	background-color: #fff;
+	padding: 7% 15%;
+	position: relative;
+	z-index: 1;
+	
+	
+}
+
+.offer{
+	text-align: center;
+
+}
+
+.offer i{
+	color: rgba(255, 76, 104, 0.76);
+	transition: color .3s ease;
+	cursor: pointer;
+}
+
+.offer i:hover{
+	color:  #ff4c68
+}
+
+.offer h2{
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin: 1rem 0;
+	
+}
+
+.offer p{
+	font-size: 1rem;
+	font-weight: 400;
+	color: #555;
+	padding: 0 4rem;
+}
+
+
+/*---------------------------
+		Showcase Section
+-----------------------------*/
+
+.showcase{
+	background-color:#ff4c68;
+	color: #fff;
+	text-align: center;
+}
+
+.carousel-inner{
+	padding: 7% 15%;
+}
+
+.showcase h2{
+	font-size: 2.5rem;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.showcase-image{
+	margin-top: 5%;
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+}
+.showcase em{
+	font-size: 1.2rem;
+	font-weight: 200;
+	padding-left: 40px;
+}
+
+.partners{
+	padding: 5% 15%;
+	
+}
+.partners img{
+	width: 200px;
+}
+
+/*---------------------------
+		Pricing Section
+-----------------------------*/
+#pricing{
+	padding: 7% 10%;
+	text-align: center;
+}
+
+#pricing h2{
+	font-size: 3rem;
+	font-weight: 500;
+	text-transform: capitalize;
+	padding-bottom: 1.5rem;
+}
+
+#pricing h3{
+	font-size: 1.5rem;
+	font-weight: 200;
+	color: #222;
+	padding-bottom: 1.5rem;
+}
+.card-header{
+	font-size: 1.8rem;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.card-title{
+	font-size: 3rem;
+	font-weight: 400;
+	padding-bottom: 1.5rem;
+}
+
+.card-text{
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #222;
+}
+
+/*---------------------------
+		Download Section
+-----------------------------*/
+#download{
+	background-color: #ff4c68;
+	padding: 7% 15%;
+	text-align: center;
+	color: #fff;
+}
+
+#download h2{
+	font-size: 3.5rem;
+	font-weight: bolder;
+	text-align: center;
+	padding: 2.5rem 0;
+}
+
+/*---------------------------
+		Footer Section
+-----------------------------*/
+
+footer{
+	padding: 5% 15%;
+	background-color: #fff;
+	text-align: center;
+	color: #000;
+}
+footer a{
+	color: #222;
+	padding: 0 1rem;
+	transition: color .3s ease;
+}
+footer a:hover{
+	color: #000;
+}
+
+footer p{
+	padding-top: 1.5rem;
+	color: #222;
+	font-size: 1rem;
+}
+
+/*---------------------------
+		Responsive  Section
+-----------------------------*/
+@media screen and (max-width:991px) {
+	.top-content img{
+		position: static;
+		transform: rotate(0);
+		margin-top: 3rem;
+		width: 50%;
+		margin-left: 0;
+		
+	}
+	.top-content{
+		text-align: center;
+	}
+	.navbar-nav{
+		text-align: center;
+	}
+	.navbar-toggler-icon{
+		color: #fff;
+		font-weight: 400;
+	}
+	
+	
+}
+
+@media screen and (max-width: 595px){
+	.showcase-image{
+		width: 150px;
+		height: 150px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
